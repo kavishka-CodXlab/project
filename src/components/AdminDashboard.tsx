@@ -205,7 +205,7 @@ const AdminDashboard: React.FC = () => {
                 )}
               </div>
 
-              {/* Projects Section */}
+              {/* Projects Section.. */}
               <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700">
                 <div className="flex justify-between items-center mb-6">
                   <h2 className="text-2xl font-bold text-white">Projects</h2>
