@@ -68,7 +68,7 @@ const About: React.FC = () => {
       <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
         <div className="w-full h-full rounded-full bg-slate-900 overflow-hidden">
           <img
-            src="/src/assets/me.jpeg" 
+            src="/src/assets/me.jpg" 
             alt="Profile"
             className="w-full h-full object-cover"
           />
