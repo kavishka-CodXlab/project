@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { User, MapPin, Calendar, Heart } from 'lucide-react';
 import { useApp } from '../context/AppContext';
+import MeeImg from '../assets/Mee.jpg';
 
 const About: React.FC = () => {
   const { userData } = useApp();
@@ -68,7 +69,7 @@ const About: React.FC = () => {
       <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
         <div className="w-full h-full rounded-full bg-slate-900 overflow-hidden">
           <img
-            src="/Mee.jpg" 
+            src={MeeImg}
             alt="Profile"
             className="w-full h-full object-cover"
           />
