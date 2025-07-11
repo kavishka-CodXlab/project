@@ -3,6 +3,8 @@ import globals from 'globals';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
+// Correct way to import modules
+import { something } from './module.js';
 
 export default tseslint.config(
   { ignores: ['dist'] },
