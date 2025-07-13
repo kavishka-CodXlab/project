@@ -18,8 +18,8 @@ const Hero: React.FC = () => {
   };
 
   const socialIcons = [
-    { icon: Github, href: userData.socialLinks.github, label: 'GitHub' },
-    { icon: Linkedin, href: userData.socialLinks.linkedin, label: 'LinkedIn' },
+    { icon: Github, href: userData.socialLinks.github, label: 'https://github.com/kavishka-CodXlab' },
+    { icon: Linkedin, href: userData.socialLinks.linkedin, label: 'https://github.com/kavishka-CodXlab' },
     { icon: Facebook, href: userData.socialLinks.facebook, label: 'Facebook' },
     { icon: Instagram, href: userData.socialLinks.instagram, label: 'Instagram' },
     { icon: MessageCircle, href: userData.socialLinks.whatsapp, label: 'WhatsApp' },
